@@ -8,11 +8,11 @@ RLE Compression and Decompression
 
 # How to use
 
-- If you want to load an image of your own to compress it change the line below
+- If you want to load an image of your own to compress it change the line below in the **RLE.pde** file
 ```processing
 image = loadImage("img1.bmp");
 ```
-- To change the name of the file that you want to save the compression code in change the line below with the name you want
+- To change the name of the file that you want to save the compression code in change the line below with the name you want in the **RLE.pde** file
 ```processing
 saveStrings("image.txt",compres);
 ```
