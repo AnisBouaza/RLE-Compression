@@ -9,7 +9,7 @@ String compres[];
 void setup()
 {
     size(128,128);
-    image = loadImage("img1.bmp");
+    image = loadImage("data/image1.bmp");
     h = image.height;
     w = image.width;
     // COMPRESSION
@@ -22,7 +22,7 @@ void setup()
     //DECOMPRESSION
     Decompression_Image();
     
-
+ 
 }
 
 
